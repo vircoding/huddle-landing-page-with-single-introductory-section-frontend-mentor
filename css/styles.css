@@ -25,7 +25,7 @@ body {
     background-color: var(--violet);
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: contain; */
     padding: 10%;
 }
 
@@ -90,4 +90,67 @@ body {
 
 .footer-brand {
     margin: 0 5px;
+}
+
+/* Active States */
+.texts-register:hover {
+    background-color: var(--soft-magenta);
+    color: var(--white);
+}
+
+.footer-brand:hover {
+    color: var(--soft-magenta);
+}
+
+/* Desktop Design */
+@media (min-width: 768px) {
+    body {
+        background-image: url(../images/bg-desktop.svg);
+        padding: 50px 5%;
+    }
+
+    .header-logo {
+        width: 240px;
+    }
+
+    .main {
+        margin-top: 80px;
+        flex-direction: row;
+        gap: 45px;
+        /* align-items: center; */
+        text-align: left;
+    }
+
+    .main-picture {
+        width: 1900px;
+    }
+
+    .main-texts {
+        width: 1440px;
+    }
+
+    .texts-title {
+        margin-top: 35px;
+        font-size: 48px;
+    }
+
+    .texts-paragraph {
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+
+    .texts-register {
+        font-size: 19px;
+        padding: 15px 70px;
+    }
+
+    .footer {
+        margin-top: 35px;
+        justify-content: right;
+    }
+
+    .footer-brand {
+        font-size: 24px;
+        padding: 0 2px;
+    }
 }
