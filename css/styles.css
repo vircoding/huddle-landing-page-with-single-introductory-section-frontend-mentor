@@ -1,0 +1,93 @@
+/* Google Fonts https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+/* Custom Properties */
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* Reset Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Standard Styles */
+body {
+    font-family: var(--open-sans);
+    font-size: 18px;
+    color: var(--white);
+    background-color: var(--violet);
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10%;
+}
+
+/* Header | Logo */
+.header-logo {
+    width: 140px;
+}
+
+.logo-img {
+    width: 100%;
+    display: block;
+}
+
+/* Main */
+.main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+/* Main | Picture */
+.picture-img {
+    width: 100%;
+}
+
+/* Main | Texts */
+.texts-title {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.texts-paragraph {
+    margin-top: 15px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.texts-register {
+    text-decoration: none;
+    padding: 10px 70px;
+    background-color: var(--white);
+    font-size: 14px;
+    color: var(--violet);
+    border-radius: 100px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-brand {
+    color: var(--white);
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.footer-brand {
+    margin: 0 5px;
+}
