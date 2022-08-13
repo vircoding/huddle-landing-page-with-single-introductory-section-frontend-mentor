@@ -14,10 +14,5 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 
-# Avoid design folder, README-template and style-guide
-design
-README-template.md
-style-guide.md
-
 # Avoid personal stuff
 personal.txt

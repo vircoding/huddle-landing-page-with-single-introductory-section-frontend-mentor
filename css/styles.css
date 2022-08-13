@@ -25,7 +25,7 @@ body {
     background-color: var(--violet);
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
-    /* background-size: contain; */
+    background-size: contain;
     padding: 10%;
 }
 
@@ -117,7 +117,6 @@ body {
         margin-top: 80px;
         flex-direction: row;
         gap: 45px;
-        /* align-items: center; */
         text-align: left;
     }
 
